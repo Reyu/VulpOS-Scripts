@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BOOT_ANIMATION="https://raw.githubusercontent.com/Reyu/VulpOS/master/bootanimation.zip"
+BOOT_ANIMATION="https://vulpos.s3.us-east-2.amazonaws.com/bootanimation.zip"
 mkdir -p $BUILD_DIR/branding
 echo "Downloading boot animation $BOOT_ANIMATION"
 wget -O $BUILD_DIR/branding/bootanimation.zip $BOOT_ANIMATION
